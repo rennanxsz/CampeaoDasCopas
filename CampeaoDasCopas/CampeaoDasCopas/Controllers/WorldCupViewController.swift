@@ -8,11 +8,13 @@
 import UIKit
 
 class WorldCupViewController: UIViewController {
+    
+    var worldCup: WorldCup!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print ("Ano da copa selecionado: \(worldCup.year)")
     }
     
 

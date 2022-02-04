@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Campeões-->
         <scene sceneID="6Mn-xx-87Y">
             <objects>
                 <tableViewController id="2se-vD-mHJ" customClass="WinnersTableViewController" customModule="CampeaoDasCopas" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="bGr-cF-xQZ" customClass="WorldCupTableViewCell" customModule="CampeaoDasCopas" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="bGr-cF-xQZ" customClass="WorldCupTableViewCell" customModule="CampeaoDasCopas" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="182.5" width="414" height="144"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bGr-cF-xQZ" id="AfB-p4-Ozy">
@@ -142,6 +142,7 @@
                                     <outlet property="lbWinner" destination="s0J-Dt-owy" id="yKs-LP-VFy"/>
                                     <outlet property="lbWinnerScore" destination="Js3-zI-UBg" id="Les-8s-wae"/>
                                     <outlet property="lbYear" destination="IQI-Au-5SQ" id="Od8-4a-l8C"/>
+                                    <segue destination="Zn4-32-0w9" kind="show" id="w9z-wM-tZj"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -150,7 +151,7 @@
                             <outlet property="delegate" destination="2se-vD-mHJ" id="ebx-Ct-5Hm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="O0q-Wl-72w"/>
+                    <navigationItem key="navigationItem" title="Campeões" id="O0q-Wl-72w"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LHI-Dr-aj8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,6 +183,7 @@
                         <viewLayoutGuide key="safeArea" id="2fR-dD-ald"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="EG8-ka-LaC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WsH-cb-h5S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
