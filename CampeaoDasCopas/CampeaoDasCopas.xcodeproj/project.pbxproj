@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00A41E2F27ACAE2E00D4D722 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A41E2E27ACAE2E00D4D722 /* WorldCupTableViewCell.swift */; };
+		00A48D8627AE04360076CDC0 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A48D8527AE04360076CDC0 /* GamesTableViewCell.swift */; };
 		00AF83C927AB53E900438880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF83C827AB53E900438880 /* AppDelegate.swift */; };
 		00AF83CB27AB53E900438880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF83CA27AB53E900438880 /* SceneDelegate.swift */; };
 		00AF83D027AB53EA00438880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AF83CE27AB53EA00438880 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		00A41E2E27ACAE2E00D4D722 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		00A48D8527AE04360076CDC0 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 		00AF83C527AB53E900438880 /* CampeaoDasCopas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeaoDasCopas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AF83C827AB53E900438880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AF83CA27AB53E900438880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				00AF844227AB58F700438880 /* WinnersTableViewController.swift */,
 				00AF844527AB59E900438880 /* WorldCupViewController.swift */,
 				00A41E2E27ACAE2E00D4D722 /* WorldCupTableViewCell.swift */,
+				00A48D8527AE04360076CDC0 /* GamesTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				00AF844327AB58F700438880 /* WinnersTableViewController.swift in Sources */,
 				00AF83C927AB53E900438880 /* AppDelegate.swift in Sources */,
 				00AF844827AB5A2E00438880 /* WorldCup.swift in Sources */,
+				00A48D8627AE04360076CDC0 /* GamesTableViewCell.swift in Sources */,
 				00A41E2F27ACAE2E00D4D722 /* WorldCupTableViewCell.swift in Sources */,
 				00AF844627AB59E900438880 /* WorldCupViewController.swift in Sources */,
 				00AF83CB27AB53E900438880 /* SceneDelegate.swift in Sources */,
