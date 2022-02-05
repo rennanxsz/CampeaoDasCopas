@@ -40,7 +40,6 @@ class WorldCupTableViewCell: UITableViewCell {
         lbWinnerScore.text = cup.winnerScore
         lbViceScore.text = cup.viceScore
         
-    }
-    
+    }    
     
 }
